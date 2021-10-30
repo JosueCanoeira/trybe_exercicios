@@ -1,6 +1,6 @@
 # Trybe
 
-Neste repositório contem todas os exercícios que eu [Josué Canoeira](https://www.linkedin.com/in/josu%C3%A9-canoeira-20775a219/), estou realizando enquanto estudo na [Trybe](https://www.betrybe.com/) :rocket::green_heart:
+Este repositório tem todos os exercícios que eu [Josué Canoeira](https://www.linkedin.com/in/josu%C3%A9-canoeira-20775a219/), estou realizando enquanto estudo na [Trybe](https://www.betrybe.com/) :rocket::green_heart:
 
 > "A Trybe é uma escola de desenvolvimento web que tem compromentimento genuino com sucesso profissonal das pessoas estudantes. São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento web, desenvolvimento, Front-end, Back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais"
 
@@ -77,5 +77,4 @@ Neste repositório contem todas os exercícios que eu [Josué Canoeira](https://
 - [ ] 9.3 Jest - Testes Assíncronos
 - [ ] 9.4 Projeto - Carrinho de Compras
 
-### :construction: **To be continued** :construction:
 
