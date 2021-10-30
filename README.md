@@ -1,4 +1,4 @@
-#Trybe
+# Trybe
 
 Neste repositório contem todas os exercícios que eu [Josué Canoeira](https://www.linkedin.com/in/josu%C3%A9-canoeira-20775a219/), estou realizando enquanto estudo na [Trybe](https://www.betrybe.com/) :rocket::green_heart:
 
