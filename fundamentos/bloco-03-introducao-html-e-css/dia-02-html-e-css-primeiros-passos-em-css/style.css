@@ -1,0 +1,27 @@
+h2 {
+    color:white;
+font-size: 2em;
+}
+
+h1{
+    color:white;
+}
+body{
+    background-color: rgb(216, 197, 162);
+    font-size: 20px;
+}
+strong {
+    color:white;
+}
+#gastronomy_is_considered {
+    background-color:rgb(206, 123, 108);
+}
+.list_style {
+    background-color: rgb(142, 125, 158);
+    color:wheat;
+    font-weight: bold;
+    font-style:italic;
+    line-height: 40px; 
+    text-align: center;
+text-decoration: underline;
+}
