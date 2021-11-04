@@ -4,6 +4,7 @@ font-size: 2em;
 }
 
 h1{
+   position: center; 
     color:white;
 }
 body{
@@ -14,7 +15,7 @@ strong {
     color:white;
 }
 #gastronomy_is_considered {
-    background-color:rgb(206, 123, 108);
+    background-color:rgb(209, 84, 84);
 }
 .list_style {
     background-color: rgb(142, 125, 158);
@@ -25,3 +26,17 @@ strong {
     text-align: center;
 text-decoration: underline;
 }
+p {
+    font-family:'Times New Roman', Times, serif;   
+} 
+.menu {
+position:fixed;
+width:100px;
+top:0px;
+left:900px;
+background-color: darkred;
+}
+.menu{
+display:inline;
+}
+
