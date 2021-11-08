@@ -10,6 +10,8 @@ h1{
 body{
     background-color: rgb(216, 197, 162);
     font-size: 20px;
+    padding-right: 03%;
+    padding-left: 40%;
 }
 strong {
     color:white;
@@ -29,4 +31,14 @@ text-decoration: underline;
 p {
     font-family:'Times New Roman', Times, serif;   
 } 
-
+.menu,h1{
+position:static;
+width:80%;
+top:05%;
+padding-right: 50%;
+left:0%;
+background-color: rgb(209, 85, 85);
+}
+.menu{
+display:inline;
+}
