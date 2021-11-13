@@ -32,9 +32,9 @@ Este repositório tem todos os exercícios que eu [Josué Canoeira](https://www.
 - [x] 4.1 Introdução - JavaScript
 - [x] 4.1 Javascript - Primeiros passos
 - [x] 4.2 Javascript - Array e loop For
-- [ ] 4.3 Javascript - Lógica de Programação e Algoritmos
-- [ ] 4.4 Javascript - Objetos e funções
-- [ ] 4.5 Projeto - Playground Functions
+- [X] 4.3 Javascript - Lógica de Programação e Algoritmos
+- [X] 4.4 Javascript - Objetos e funções
+- [X] 4.5 Projeto - Playground Functions
 
 #### Bloco 05: JavaScript: DOM, Eventos e Web Storage
 - [ ] 5.1 JavaScript - DOM e seletores
