@@ -14,7 +14,6 @@ const createEmail = (nome, email) => {
   const addr = "@trybe.com";
   return { nome, email: `${strUnderscores + addr}` };
 };
-console.log(createEmail("Josué Canoeira", "@trybe.com"));
 
 const newEmployees = (callback) => {
   const employees = {
