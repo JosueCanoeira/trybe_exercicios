@@ -4,6 +4,29 @@ pessoa contratada em seu respectivo id . A sua função deve receber como parâm
 completo da pessoa funcionária e a partir dele gerar automaticamente um email no formato nome_da
 pessoa@trybe.com .*/
 
+// Criar uma Função
+// retornar { nomeCompleto, email }
+// Passar ela como parâmetro da HOF newEmployees
+// Parâmetro dece ser nome completo
+// A function deve gerar nome_dapessoa@trybe.com
+const createEmail = (nome, email) => {
+  const strUnderscores = nome.replace(/ /g, "_");
+  const addr = "@trybe.com";
+  return { nome, email: `${strUnderscores + addr}` };
+};
+console.log(createEmail("Josué Canoeira", "@trybe.com"));
+
+const newEmployees = (callback) => {
+  const employees = {
+    id1: createEmail("Pedro Guerra"),
+    id2: createEmail("Luiza Drumond"),
+    id3: createEmail("Carla Paiva"),
+  };
+  return employees;
+};
+console.log(newEmployees(createEmail));
+
+/////////////////////////////////////////////////////////////////////////////////////////////
 /*2 - Desenvolva uma HOF que retorna o resultado de um sorteio. Esta HOF irá gerar um número 
 aleatório entre 1 e 5 recebendo como parâmetros o número apostado e uma função que checa se
  o número apostado é igual ao número sorteado. O retorno da sua HOF deve ser uma 
@@ -19,6 +42,3 @@ e quando não houver resposta ("N.A") não altera-se a contagem.
 Copiar
 const RIGHT_ANSWERS = ['A', 'C', 'B', 'D', 'A', 'A', 'D', 'A', 'D', 'C'];
 const STUDENT_ANSWERS = ['A', 'N.A', 'B', 'D', 'A', 'C', 'N.A', 'A', 'D', 'B'];*/
-const employees = () => {
-  return "canoeira";
-};
