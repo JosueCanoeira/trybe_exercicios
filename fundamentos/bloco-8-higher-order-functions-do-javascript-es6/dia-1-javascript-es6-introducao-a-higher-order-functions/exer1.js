@@ -9,6 +9,7 @@ pessoa@trybe.com .*/
 // Passar ela como parâmetro da HOF newEmployees
 // Parâmetro dece ser nome completo
 // A function deve gerar nome_dapessoa@trybe.com
+
 const createEmail = (nome, email) => {
   const strUnderscores = nome.replace(/ /g, "_");
   const addr = "@trybe.com";
