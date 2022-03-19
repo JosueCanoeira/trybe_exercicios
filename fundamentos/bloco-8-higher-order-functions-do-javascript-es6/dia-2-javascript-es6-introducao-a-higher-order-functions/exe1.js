@@ -12,7 +12,7 @@ console.log(mComSort);*/
 entregaram 100% dos projetos, esse bot deve imprimir uma mensagem do tipo: 'Olá pessoa,
 parabéns por ter finalizado 100% do projeto' para cada pessoa.*/
 
-const pessoa = [
+const estudantes = [
   {
     nome: "Josué",
     projeto: "TrybeWarts",
@@ -45,9 +45,9 @@ const pessoa = [
   },
 ];
 
-//console.log(pessoa[0].Status);
+//console.log(estudantes[0].Status);
 
-const consgratulations = (array) => {
+const congratulations = (array) => {
   const msg = array.forEach((element) => {
     if (element.Status === 100) {
       console.log(
@@ -56,4 +56,4 @@ const consgratulations = (array) => {
     }
   });
 };
-const result = congratulations(pessoa);
+const result = congratulations(estudantes);
