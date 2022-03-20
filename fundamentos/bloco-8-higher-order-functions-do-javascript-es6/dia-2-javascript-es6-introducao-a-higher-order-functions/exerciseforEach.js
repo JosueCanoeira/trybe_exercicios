@@ -1,12 +1,5 @@
 const array = [35, 12, 5, 23, 7, 3];
 
-/*const retornoSome = array.some((elemento) => elemento % 2 === 0);
-console.log(`Algum elemento é par? ${retornoSome}`);
-
-const novoArray = ["c", "b", "d", "a", "e"];
-const mComSort = novoArray.sort();
-console.log(mComSort);*/
-
 //                        Exercise
 /*Aquí na trybe estamos criando um bot que vai dar os parabéns para as pessoas que
 entregaram 100% dos projetos, esse bot deve imprimir uma mensagem do tipo: 'Olá pessoa,
