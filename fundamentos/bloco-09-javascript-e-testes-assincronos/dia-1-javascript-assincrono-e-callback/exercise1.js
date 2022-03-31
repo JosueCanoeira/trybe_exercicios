@@ -19,6 +19,5 @@ const getUser = (callback) => {
   return callback(userToReturn)
 };
 
-console.log(getUser(userFullName)); /*complete a chamada da função getUser de modo que o retorno seja: "Hello! My name is 
-Ivan Ivanovich"*/
+console.log(getUser(userFullName)); //complete a chamada da função getUser de modo que o retorno seja: "Hello! My name is Ivan Ivanovich"
 console.log(getUser(userNationality)); // complete a chamada da função getUser de modo que o retorno seja: "Ivan is Russian"
